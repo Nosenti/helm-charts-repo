@@ -1,0 +1,10 @@
+
+#repositoryID: The ID of the Artifact Hub repository where the packages will be published to (optional, but it enables verified publisher)
+repositoryID: 12600ddd-c335-43ae-9194-03f5fb1716b3
+owners: # (optional, used to claim repository ownership)
+  - name: Innocent Ingabire
+    email: inno100os@gmail.com
+ignore: # (optional, packages that should not be indexed by Artifact Hub)
+  - name: package1
+  - name: package2 # Exact match
+    version: beta # Regular expression (when omitted, all versions are ignored)
